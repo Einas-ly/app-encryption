@@ -12,7 +12,7 @@ def decrypt():
      myframe2 = Toplevel(myframe) # type: ignore
      myframe2.title("decryption") 
      myframe2.geometry("800x200")
-     myframe2.configure(bg= "#00bd56")
+     myframe2.configure(bg= "#a8aae3")
 
      message = text1.get(1.0,END) # type: ignore
      Encode_message.encod("ascil") # type: ignore
@@ -37,7 +37,7 @@ def encrypt():
      myframe1 = Toplevel(myframe) # type: ignore
      myframe1.title("encryption") 
      myframe1.geometry("400x200")
-     myframe1.configure(bg = "#ed3833")
+     myframe1.configure(bg = "#31358f")
 
      message = text1.get(1.0,END) # type: ignore
      Encode_message.encod("ascil") # type: ignore
